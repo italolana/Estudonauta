@@ -1,0 +1,60 @@
+body {
+    background-color: #ddd;
+    font-family: Tahoma;
+}
+
+header {
+    font-size: 12px;
+    text-align: right;
+
+}
+
+div#corpo {
+    width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 30px #777;
+}
+
+table.Listagem {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+
+}
+
+table.Listagem tr {
+    height: 50px;
+}
+
+table.Listagem td {
+    #border: 1px solid #ddd;
+    padding: 10px;
+}
+
+table.Listagem tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table.Listagem td:nth-child(1) {
+    width: 50px;
+}
+
+table.Listagem td:nth-child(3) {
+    width: 90px;
+}
+
+table.Listagem img {
+    width: 50px;
+}
+
+img.mini {
+    width: 50px;
+}
+
+footer {
+    text-align: center;
+    font-family: Arial;
+    font-size: 10px;
+}
